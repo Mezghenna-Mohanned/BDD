@@ -717,3 +717,6 @@ INSERT INTO Seances VALUES(28,5,6,'Dimanche',17.0,60);
 INSERT INTO Seances VALUES(28,5,7,'Mardi',18.0,90);
 INSERT INTO Seances VALUES(28,5,7,'Samedi',18.0,90);
 INSERT INTO Seances VALUES(28,5,7,'Vendredi',18.0,90);
+
+
+-- Tmchi , no errors
