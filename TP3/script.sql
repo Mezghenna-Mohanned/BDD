@@ -38,3 +38,28 @@
 -- INSERT INTO fournisseur1 VALUES (2, 'au bon siege ', 'sous traitant', 'limoges', 'au_bon_siege@email.com');
 
 
+-- Connect as ing/psw
+
+
+
+
+-- CONNECT ing/psw;
+
+-- CREATE USER USERFOUR IDENTIFIED BY psw
+-- DEFAULT TABLESPACE users
+-- TEMPORARY TABLESPACE temp;
+
+-- GRANT CONNECT, RESOURCE TO USERFOUR;
+
+
+-- ALTER USER USERFOUR QUOTA UNLIMITED ON users;
+
+
+
+-- connect system/131004;
+
+-- desc dba_users;
+
+-- select username, created from dba_users where username =upper('USERFOUR');
+
+
