@@ -63,3 +63,45 @@
 -- select username, created from dba_users where username =upper('USERFOUR');
 
 
+
+-- connect USERFOUR/psw;
+
+-- connect ing/psw;
+-- grant create session to USERFOUR;
+
+
+-- connect system/131004;
+
+-- desc dba_sys_privs;
+-- select privilege,admin_option from dba_sys_privs where grantee = 'USERFOUR';
+
+
+-- connect USERFOUR/psw;
+-- select PRIVILEGE,admin_option from user_sys_privs;
+
+
+-- connect ing/psw;
+-- grant create table, create view , create user to USERFOUR;
+
+
+
+
+-- connect system/131004;
+
+-- select privilege,admin_option from dba_sys_privs where grantee = 'USERFOUR';
+
+
+-- connect USERFOUR/psw;
+-- select privilege,admin_option from user_sys_privs;
+
+-- create table test(a integer , b char(1));
+
+
+
+connect ing/psw;
+alter user USERFOUR quota unlimited on LIVRAISON_TBS;
+
+connect USERFOUR/psw;
+create table test(a integer , b char(1));
+
+select table_name from tabs;
